@@ -1,3 +1,102 @@
 main{
-    min-height: 2500px;
+    min-height: 3000px;
+}
+
+body{
+    background-color: #6389A4;
+    color: white;
+    margin:0;
+    padding:0;
+
+}
+.jumbotron {
+    align-items: center;
+    display: flex;
+    background-size: cover;
+    background-color: #898888;
+    height: 100vh; /* Add this */
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
+    background-repeat: no-repeat;
+
+  }
+
+.FAQ{
+    background-image: url(../assets/chuttersnap-9G1kXjqOq4U-unsplash.jpg);
+
+}
+
+.welcome{
+    background-image: url(../assets/mike-swigunski-ueBmz9K8zTg-unsplash.jpg);
+}
+
+.fun{
+    background-image: url(../assets/tatonomusic-FFCgotROOTY-unsplash.jpg)
+
+}
+
+.lodging{
+    background-image: url(../assets/shane-hauser-Kut4fuXuTO4-unsplash.jpg);
+
+}
+
+.transportation{
+    background-image: url(../assets/mike-arney-yRyZzxolfSs-unsplash.jpg);
+}
+
+.jumbotron_title{
+    background-color:rgba(0, 0, 0, 0.0);
+}
+
+.carousel-item{
+
+    max-height: 50vh;
+    min-height: 50vh;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
+}
+
+.img-container{
+    max-height: auto;
+    max-width: 100%;
+    /* min-height: 300px; */
+}
+
+.card{
+    background-color: #9BD1F2;
+    border-style: solid;
+    border-color: grey;
+    color: black;
+}
+
+.factoid{
+    color: black;
+padding: 20px;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-left: 20px;
+margin-right: 20px;
+background-color: #9BD1F2;
+border-style: solid;
+border-color: grey;
+
+}
+
+img {
+        width: 100%;
+        height: auto;
+        overflow: none;
+      }
+
+nav{
+    background-color: #6389A4;
+}
+
+/* .rating > span:hover:before {
+    content: "\2605";
+    position: absolute;
+ } */
+
+footer{
+    color: white;
+    padding: 30px;
 }
